@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>reveal.js – The HTML Presentation Framework</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+
+    <div class="reveal">
+
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+            <section>
+                <section>
+                    <img src="/assets/presentation.png" alt="reveal.js logo" style="height: 300px; margin: 0 auto 4rem auto; background: transparent; border-radius: 10px;" class="demo-logo">
+                    <h3>Comment favoriser l'adoption du Métaverse ?</h3>
+                    <p>
+                        <small>Par <a href="https://www.linkedin.com/in/quentin-chaignaud-4a921914a/?originalSubdomain=fr">Quentin Chaignaud</a>, présenté le 7 septembre 2022 à l'université d'Evry-Val-d'Essonne.</small>
+                    </p>
+                </section>
+                <section>
+                    <h2>Présentation de la mission</h2>
+                    <ul>
+                        <li>création de scripts de compression/décompression</li>
+                        <li>développement des besoins métiers sur Linkurious</li>
+                        <li>transformation de la RADLAD en API</li>
+                    </ul>
+                </section>
+            </section>
+
+            <section>
+                <h3>Introduction</h3>
+                <p>Le Métaverse n'est pas : </p>
+                <ul>
+                    <li class="fragment">une platerforme de contenu</li>
+                    <li class="fragment">un jeu vidéo</li>
+                    <li class="fragment">un monde virtuel (pas que)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Introduction</h3>
+
+                <p>Métaverse = Internet ∩ Réalité Virtuelle</p>
+            </section>
+
+            <section>
+                <h3>Introduction</h3>
+
+                <p>Pourquoi il est important de s'intéresser au Métaverse ?</p>
+            </section>
+
+            <section>
+                <h3>Quelques exemples - la recherche</h3>
+
+                <img src="/assets/conference.jpeg" alt="reveal.js logo" style="height: 400px; margin: 0 auto 4rem auto; background: transparent; border-radius: 20px;" class="demo-logo">
+            </section>
+            <section>
+                <h3>Quelques exemples - l'éducation</h3>
+
+                <img src="/assets/education.png" alt="reveal.js logo" style="height: 400px; margin: 0 auto 4rem auto; background: transparent; border-radius: 20px;" class="demo-logo">
+            </section>
+            <section>
+                <h3>Quelques exemples - la santé</h3>
+
+                <img src="/assets/health.jpeg" alt="reveal.js logo" style="height: 400px; margin: 0 auto 4rem auto; background: transparent; border-radius: 20px;" class="demo-logo">
+            </section>
+
+            <section>
+                <h3>Outils et structures nécessaires</h3>
+                <p class="fragment">Besoin croissant de puissance et de vitesse.</p>
+                <p class="fragment">L'IA est au coeur du processus.</p>
+            </section>
+
+            <section>
+                <h3>Outils et structures nécessaires</h3>
+
+                <video data-autoplay src="/assets/video.mp4"></video>
+            </section>
+
+            <section>
+                <h3>La question de la sécurité</h3>
+
+                <ul>
+                    <li class="fragment">confidentialité des données</li>
+                    <li class="fragment">gouvernance des données</li>
+                    <li class="fragment">risques physiques</li>
+                    <li class="fragment">risques psychiques</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Convaincre en attirant des communautés</h3>
+
+                <p>L'économie des créateurs est une des clés de l'adoption du Métaverse.</p>
+            </section>
+
+            <section>
+                <h3>La gamification pour plus de rétention</h3>
+
+                <p>Comment donner un sens à l'utilisateur dans son exploration ?</p>
+            </section>
+
+            <section>
+                <h3>Le besoin d'esthétisme</h3>
+
+                <p>Le Métaverse dans la fiction VS dans la réalité :</p>
+                <div class="r-stack">
+                    <img class="fragment" src="/assets/metaverse.jpeg">
+                    <img class="fragment" src="/assets/metaverse-zuck.webp" width="400">
+                    <img class="fragment" src="/assets/astroneer.jpeg">
+                </div>
+            </section>
+
+            <section style="text-align: left;">
+                <h1>questions</h1>
+            </section>
+
+        </div>
+
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/search/search.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+        // Also available as an ES module, see:
+        // https://revealjs.com/initialization/
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            center: true,
+            hash: true,
+
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight]
+        });
+    </script>
+
+</body>
+
+</html>
